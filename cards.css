@@ -1,0 +1,19 @@
+/* cards.css - region cards using the CSS box model (Task 5) */
+
+.region-card {
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  background-color: #fff8f0;
+  box-shadow: 2px 2px 6px #aaaaaa;
+  text-align: center;
+  vertical-align: top;
+}
+
+.region-card h3 {
+  margin-top: 0;
+  color: #a83232;
+}

@@ -1,0 +1,19 @@
+/* gallery.css - severity icon gallery (Task 6) */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #333333;
+  transition: transform 0.4s;
+}
+
+.gallery img:hover {
+  transform: scale(1.15);
+}

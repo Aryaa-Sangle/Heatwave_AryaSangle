@@ -1,0 +1,50 @@
+/* form.css - subscription form styling (Task 8) */
+
+fieldset {
+  width: 320px;
+  margin: 0 auto;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+legend {
+  color: #a83232;
+  font-weight: bold;
+  padding: 0 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 6px;
+  margin: 6px 0 12px 0;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus {
+  border-color: #a83232;
+}
+
+input[type="submit"] {
+  background-color: #a83232;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+  background-color: #7a2424;
+}
+
+input[type="reset"] {
+  padding: 8px 16px;
+  border-radius: 4px;
+}

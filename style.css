@@ -1,0 +1,25 @@
+/* style.css - site-wide theme for the Heatwave Intelligence System */
+
+body {
+  font-family: Verdana, Arial, sans-serif;
+  background-color: #fdfaf5;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #a83232;
+}
+
+footer {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  margin-top: 30px;
+  font-size: 90%;
+}
+
+footer a {
+  color: #ffd699;
+}

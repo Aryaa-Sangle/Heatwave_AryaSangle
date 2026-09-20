@@ -1,0 +1,18 @@
+/* sidebar.css - styles the data sources / stakeholders lists as a card (Task 4) */
+
+.category-card {
+  border: 1px solid #cccccc;
+  box-shadow: 3px 3px 8px #999999;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.category-card li {
+  padding: 6px 0;
+}
+
+.category-card li:hover {
+  color: #a83232;
+}

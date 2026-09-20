@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Advisory Subscription</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+
+<h1 style="color:darkred; text-align:center;">Heatwave Advisory Subscription</h1>
+
+<form action="#" method="GET">
+<fieldset>
+<legend>Citizen Details</legend>
+
+Name:<br>
+<input type="text" name="citizen_name">
+
+Email:<br>
+<input type="email" name="citizen_email">
+
+Mobile Number:<br>
+<input type="tel" name="citizen_mobile">
+
+Region:<br>
+<select name="region">
+<option value="north">North Zone</option>
+<option value="central">Central Zone</option>
+<option value="south">South Zone</option>
+</select>
+</fieldset>
+
+<fieldset>
+<legend>Alert Preferences</legend>
+
+Preferred Alert Language:<br>
+<input type="radio" name="language" value="english"> English
+<input type="radio" name="language" value="hindi"> Hindi
+<input type="radio" name="language" value="marathi"> Marathi
+<br><br>
+
+Alert Types:<br>
+<input type="checkbox" name="alert_sms" value="on"> SMS
+<input type="checkbox" name="alert_email" value="on"> Email
+<input type="checkbox" name="alert_call" value="on"> Voice Call
+<br><br>
+
+<input type="submit" value="Subscribe">
+<input type="reset" value="Reset">
+</fieldset>
+</form>
+
+<footer>
+&copy; 2026 Heatwave Intelligence System
+</footer>
+
+</body>
+</html>
